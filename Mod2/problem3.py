@@ -1,0 +1,10 @@
+import math
+side_1 = int(input("Enter the first side of the triangle: "))
+print(side_1)
+side_2 = int(input("Enter the second side of the triangle: "))
+print(side_2)
+side_3 = int(input("Enter the third side of the triangle: "))
+print(side_3)
+semiperimiter = 0.5 * (side_1 + side_2 + side_3)
+herons_formula = math.sqrt(semiperimiter * (semiperimiter - side_1) * (semiperimiter - side_2) * (semiperimiter - side_3))
+print("The area of the triangle is", herons_formula)
