@@ -1,0 +1,3 @@
+sentance = input("What sentance do you want to use? ")
+word = input("What word are you looking for? ")
+print(word in sentance)
