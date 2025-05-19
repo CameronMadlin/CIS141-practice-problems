@@ -3,7 +3,7 @@ str_list = ["One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight"]
 three_list = []
 
 for lgth in range(len(str_list)):
-    if len(str_list[lgth]) == 3:
+    if len(str_list[lgth]) <= 3:
         continue
     else:
         three_list.append(str_list[lgth])
