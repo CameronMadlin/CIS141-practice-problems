@@ -9,7 +9,7 @@ fare = ""
 
 def ferry_fare(age, vehicle):
     if age < 18:
-        return print("Free fare")
+        return print("Your fare is free")
     elif 65 > age > 18 and vehicle == "Y":
         return print("Your fare is $20")
     elif 65 > age > 18 and vehicle == "N":
@@ -19,4 +19,4 @@ def ferry_fare(age, vehicle):
     elif 65 < age and vehicle == "N":
         return print("Your fare is $5")
 
-print(ferry_fare(int(input("What is your age? ")), input("Do you have a vehicle? Y or N: ")))
+ferry_fare(int(input("What is your age? ")), input("Do you have a vehicle? Y or N: "))
