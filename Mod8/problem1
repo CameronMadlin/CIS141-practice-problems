@@ -4,6 +4,6 @@ it. Write a Python script that reads a file gardening_tips.txt and prints
 out each tip one by one.
 '''
 
-garden = open("example.txt", "r")
+garden = open("gardening_tips.txt", "r")
 print(garden.read())
 garden.close()
