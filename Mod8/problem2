@@ -18,3 +18,7 @@ while True:
         break
     tracker.write(name + "\t" + distance + "\n")
 tracker.close()
+
+tracker = open("hiking_log.txt", "r")
+print(tracker.read())
+tracker.close()
